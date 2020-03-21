@@ -126,69 +126,81 @@ img {
 
 @media screen and (max-width: 1150px) {
   .card {
-    width: 700px;
+    width: auto;
   }
   .card:nth-child(1) {
     margin-left: 6em;
+    margin-right: 2em;
   }
   
   .card:nth-child(2) {
     margin-left: 6em;
+    margin-right: 2em;
   }
   
   .card:nth-child(3) {
     margin-left: 6em;
+    margin-right: 2em;
   }
 }
 
 @media screen and (max-width: 850px) {
   .card {
-    width: 500px;
+    width: auto;
   }
   .card:nth-child(1) {
     margin-left: 4em;
+    margin-right: 2em;
   }
   
   .card:nth-child(2) {
     margin-left: 4em;
+    margin-right: 2em;
   }
   
   .card:nth-child(3) {
     margin-left: 4em;
+    margin-right: 2em;
   }
 }
 
 @media screen and (max-width: 600px) {
   .card {
-    width: 400px;
+    width: auto;
   }
   .card:nth-child(1) {
     margin-left: 1em;
+    margin-right: 2em;
   }
   
   .card:nth-child(2) {
     margin-left: 1em;
+    margin-right: 2em;
   }
   
   .card:nth-child(3) {
     margin-left: 1em;
+    margin-right: 2em;
   }
 }
 
 
 @media screen and (max-width: 500px) {
   .card {
-    width: 300px;
+    width: auto;
   }
   .card:nth-child(1) {
     margin-left: 1em;
+    margin-right: 2em;
   }
   
   .card:nth-child(2) {
     margin-left: 1em;
+    margin-right: 2em;
   }
   
   .card:nth-child(3) {
     margin-left: 1em;
+    margin-right: 2em;
   }
 }
