@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background: rgb(84, 109, 119);
+  }
+  
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(100, 194, 147);
+    font-family: 'Hind', sans-serif;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgb(106, 223, 178);
+    color: black;
+  }
+
+  .topnav .contact-active {
+      background-color: rgb(56, 218, 156);
+      color: aliceblue;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    height: vh;
+    width: 100%;
+    background-color: rgb(106, 223, 178);
+    box-shadow: 0px 1px 13px;
+  }
+  
+  .logo-img {
+    margin-top: 1vh;
+    height: 20vh;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .logo-text {
+    font-size: 3em;
+    margin-left: 1rem;
+    font-family: 'Hind', sans-serif;
+  }
+
+
+
+
+
+
+  /* ---------content------------------------------ */
+   /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+    font-family: 'Varela Round', sans-serif;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 3px solid rgb(81, 146, 103); /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 1em; /* Add a top margin */
+    margin-bottom: 2em; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=button] {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #3ba37b;
+    padding: 20px;
+    font-family: 'Varela Round', sans-serif;
+  } 
+/* ============================================================================= */
