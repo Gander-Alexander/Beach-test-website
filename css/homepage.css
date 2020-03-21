@@ -77,7 +77,6 @@ header {
   width: 700px;
   background-color: rgb(133, 231, 157);
   box-shadow: 1px 1px 20px;
-  transition: .4s ease;
 }
 
 p {
@@ -123,16 +122,6 @@ img {
   margin-left: 17em;
 }
 
-
-
-@keyframes slide {
-  0% {
-    transform: translateX(-100vw);
-  }
-  50% {
-    transform: translateX(0);
-  }
-}
 
 
 @media screen and (max-width: 1150px) {
