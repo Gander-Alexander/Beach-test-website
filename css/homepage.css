@@ -39,6 +39,12 @@ body {
   color: black;
 }
 
+.topnav .home-active {
+  background-color: rgb(56, 218, 156);
+  color: aliceblue;
+}
+
+
 header {
   display: flex;
   justify-content: center;
@@ -49,11 +55,7 @@ header {
 
 .logo-img {
   margin-top: 1vh;
-  height: 20vh;
-}
-
-.logo:hover {
-  cursor: pointer;
+  height: 10em;
 }
 
 .logo-text {
