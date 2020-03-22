@@ -58,9 +58,6 @@ header {
   height: 10em;
 }
 
-.logo:hover {
-  cursor: pointer;
-}
 
 .logo-text {
   font-size: 3em;
@@ -87,15 +84,34 @@ header {
       transition: .4s ease;
   }
 
-  .card:hover {
-      box-shadow: 10px 10px 50px;
-      transform: translateY(-.5em)
-  }
+  
 
   img {
       width: 100%;
   }
 
+  .img-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+
+.card:hover {
+      box-shadow: 10px 10px 50px;
+      transform: translateY(-.5em);
+      visibility: 1;
+      opacity: 1;
+  }
 
   @media screen and (max-width: 730px) {
     .card {
